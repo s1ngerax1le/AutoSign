@@ -15,8 +15,8 @@ configure<ApplicationExtension> {
         applicationId = "com.autosign.cpdaily"
         minSdk = 26
         targetSdk = 36
-        versionCode = 48
-        versionName = "1.3.0"
+        versionCode = 49
+        versionName = "1.3.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
