@@ -1,0 +1,18 @@
+# Gradle & Kotlin build artifacts
+.gradle/
+.kotlin/
+build/
+app/build/
+
+# Local configuration & IDE
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Root-level debug dumps, screenshots, and temporary APKs
+/*.png
+/*.jpg
+/*.xml
+/*.sql
+/*.apk

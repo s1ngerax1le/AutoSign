@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 45% 半透明液态透光晶体 -->
+    <solid android:color="#73FFFFFF" />
+    <!-- 70% 高光微晶反射边框 -->
+    <stroke android:width="1.5dp" android:color="#B3FFFFFF" />
+    <corners android:radius="24dp" />
+</shape>

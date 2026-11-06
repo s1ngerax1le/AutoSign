@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">s1ngerAutoSign</string>
+    <string name="accessibility_service_label">s1ngerAutoSign Accessibility Service</string>
+    <string name="accessibility_service_desc">Automatically detects Cpdaily UI, performs counselor sign-in, camera capture, and submission.</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_test">Test</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="status_working">Working</string>
+    <string name="status_idle">Standby</string>
+    <string name="status_need_setup">Setup Needed</string>
+    <string name="status_expired">Expired</string>
+    <string name="status_running">Running</string>
+    <string name="ksu_version_sub">Version: %1$s</string>
+
+    <string name="mode_root">Root</string>
+    <string name="mode_a11y">A11y</string>
+    <string name="mode_sprint">Sprint</string>
+    <string name="mode_skz">SKZ</string>
+
+    <string name="card_alarm_time">Scheduled Time</string>
+    <string name="card_signed_days">Signed Days</string>
+    <string name="days_unit">%d Days</string>
+
+    <string name="app_version_label">Manager Version</string>
+    <string name="work_mode_label">Work Mode</string>
+    <string name="device_model_label">Device Name</string>
+    <string name="system_version_label">System Version</string>
+    <string name="fingerprint_label">Build Fingerprint</string>
+    <string name="a11y_status_label">Accessibility</string>
+    <string name="root_status_label">Root Permission</string>
+
+    <string name="status_granted">Granted</string>
+    <string name="status_enabled">Enabled</string>
+    <string name="status_disabled">Disabled</string>
+    <string name="status_denied">Denied</string>
+
+    <string name="test_screen_off">Screen-Off Full Test</string>
+    <string name="test_now">Test Sign-In Now</string>
+    <string name="force_stop_task">Force Stop Task</string>
+
+    <string name="core_work_mode">Core Operating Mode</string>
+    <string name="mode_root_title">Root Mode</string>
+    <string name="mode_a11y_title">Accessibility Mode</string>
+    <string name="mode_normal_name">Standard Mode</string>
+    <string name="mode_sprint_name">Sprint Mode</string>
+    <string name="mode_skz_name">SKZ Mode</string>
+
+    <string name="sign_start_time">Sign-in Start Time</string>
+    <string name="sign_start_time_sub">Sprint mode warms up 20s prior and triggers at this time</string>
+    <string name="daily_sign_time">Daily Scheduled Time</string>
+    <string name="daily_sign_time_sub">Scheduled sign-in time for standard modes</string>
+    <string name="modify_time">Change</string>
+    <string name="enable_alarm">Enable Daily Scheduled Sign-In</string>
+    <string name="lockscreen_pin">Lockscreen Numeric PIN</string>
+    <string name="pin_hint">Enter phone numeric lockscreen PIN (e.g. 123456)</string>
+    <string name="retry_limit">Step Failure Max Retries</string>
+    <string name="save_settings">Save All Settings</string>
+    <string name="keep_alive_title">Keep-Alive &amp; Anti-Disconnect</string>
+    <string name="keep_alive_desc">Configure battery optimization and task lock to prevent being killed during screen off</string>
+    <string name="goto_settings">Configure &gt;</string>
+
+    <string name="language_title">Language / 界面语言</string>
+    <string name="change_language">Change &gt;</string>
+    <string name="select_language">Select Language / 选择语言</string>
+    <string name="lang_zh">简体中文</string>
+    <string name="lang_en">English</string>
+    <string name="first_launch_title">Welcome / 欢迎</string>
+    <string name="first_launch_msg">Please select your preferred display language:\n请选择您偏好的界面显示语言：</string>
+    <string name="agreement_title">User Agreement &amp; Disclaimer</string>
+    <string name="agree_and_continue">Agree and Continue</string>
+    <string name="disagree_and_exit">Disagree and Exit</string>
+    <string name="card_settings_title">Sign-in Settings &amp; Credentials</string>
+    <string name="retry_limit_desc">Force kill Cpdaily background and restart cold run if a step fails</string>
+    <string name="retry_1">1x</string>
+    <string name="retry_2">2x</string>
+    <string name="retry_3">3x (Rec)</string>
+    <string name="retry_5">5x</string>
+    <string name="log_terminal_title">Live Execution Log (Terminal)</string>
+    <string name="log_clear">Clear Terminal</string>
+    <string name="log_copy">Copy Diagnostic Log</string>
+    <string name="log_export">Export &amp; Share TXT</string>
+
+    <string name="mode_root_normal_title">Root - Standard</string>
+    <string name="mode_root_sprint_title">Root - Sprint</string>
+    <string name="mode_a11y_normal_title">Accessibility - Standard</string>
+    <string name="mode_a11y_skz_title">Accessibility - SKZ</string>
+    <string name="mode_root_normal_desc">Uses Root hardware wake-up and instant PIN unlock, with rigorous multi-step validation. Reliable and steady.</string>
+    <string name="mode_root_sprint_desc">Built to conquer #1! 20s screen-on warmup, fresh GPS, on-time instant launch, millisecond submission. Auto-fallbacks on failure.</string>
+    <string name="mode_a11y_normal_desc">No Root needed. Uses Android Accessibility to simulate taps and wake-up. Suitable for standard devices.</string>
+    <string name="mode_a11y_skz_desc">Runs via Shizuku ADB Shell for rootless privilege and high scheduling stability.</string>
+    <string name="mode_tip_prefix">💡 Mode Info: %1$s</string>
+    <string name="sprint_time_sub_locked">Auto-triggers 20s prior based on start time (Locked)</string>
+</resources>

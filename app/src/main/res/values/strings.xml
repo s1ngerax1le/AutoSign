@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">s1ngerAutoSign</string>
+    <string name="accessibility_service_label">s1ngerAutoSign 辅助服务</string>
+    <string name="accessibility_service_desc">用于自动识别今日校园界面并执行辅导员签到、拍照和提交操作。</string>
+
+    <string name="nav_home">主页</string>
+    <string name="nav_test">测试</string>
+    <string name="nav_settings">设置</string>
+
+    <string name="status_working">工作中</string>
+    <string name="status_idle">待命中</string>
+    <string name="status_need_setup">待配置</string>
+    <string name="status_expired">已到期</string>
+    <string name="status_running">执行中</string>
+    <string name="ksu_version_sub">版本：%1$s</string>
+
+    <string name="mode_root">Root</string>
+    <string name="mode_a11y">无障碍</string>
+    <string name="mode_sprint">极速</string>
+    <string name="mode_skz">SKZ</string>
+
+    <string name="card_alarm_time">定时时间</string>
+    <string name="card_signed_days">已签到</string>
+    <string name="days_unit">%d 天</string>
+
+    <string name="app_version_label">管理器版本</string>
+    <string name="work_mode_label">工作模式</string>
+    <string name="device_model_label">设备名称</string>
+    <string name="system_version_label">系统版本</string>
+    <string name="fingerprint_label">系统指纹</string>
+    <string name="a11y_status_label">无障碍权限</string>
+    <string name="root_status_label">Root 权限</string>
+
+    <string name="status_granted">已授权</string>
+    <string name="status_enabled">已开启</string>
+    <string name="status_disabled">未开启</string>
+    <string name="status_denied">未授权</string>
+
+    <string name="test_screen_off">息屏全流程测试</string>
+    <string name="test_now">立即打卡测试</string>
+    <string name="force_stop_task">强制停止当前任务</string>
+
+    <string name="core_work_mode">核心运行模式</string>
+    <string name="mode_root_title">Root 模式</string>
+    <string name="mode_a11y_title">无障碍模式</string>
+    <string name="mode_normal_name">普通模式</string>
+    <string name="mode_sprint_name">极速模式</string>
+    <string name="mode_skz_name">SKZ 模式</string>
+
+    <string name="sign_start_time">签到开始时间</string>
+    <string name="sign_start_time_sub">极速模式根据此时间提前20秒预热并准点秒杀</string>
+    <string name="daily_sign_time">每日打卡时间</string>
+    <string name="daily_sign_time_sub">普通模式准点打卡时间</string>
+    <string name="modify_time">修改时间</string>
+    <string name="enable_alarm">启用每日定时自动打卡</string>
+    <string name="lockscreen_pin">锁屏数字 PIN 码</string>
+    <string name="pin_hint">输入手机锁屏数字密码 (如 123456)</string>
+    <string name="retry_limit">步骤异常自动重试上限</string>
+    <string name="save_settings">保存全部设置</string>
+    <string name="keep_alive_title">防断连保护设置</string>
+    <string name="keep_alive_desc">配置忽略电池优化、自启动与多任务卡片加锁，防止熄屏定时被系统休眠误杀</string>
+    <string name="goto_settings">前往设置 ></string>
+
+    <string name="language_title">界面语言 / Language</string>
+    <string name="change_language">切换 ></string>
+    <string name="select_language">选择界面语言 / Select Language</string>
+    <string name="lang_zh">简体中文</string>
+    <string name="lang_en">English</string>
+    <string name="first_launch_title">欢迎 / Welcome</string>
+    <string name="first_launch_msg">请选择您偏好的界面显示语言：\nPlease choose your preferred display language:</string>
+    <string name="agreement_title">用户使用协议与免责声明</string>
+    <string name="agree_and_continue">同意并继续</string>
+    <string name="disagree_and_exit">不同意并退出</string>
+    <string name="card_settings_title">打卡参数与凭证</string>
+    <string name="retry_limit_desc">某步骤未如期执行时强制杀掉今日校园后台冷启动重启重跑</string>
+    <string name="retry_1">1 次</string>
+    <string name="retry_2">2 次</string>
+    <string name="retry_3">3 次 (推荐)</string>
+    <string name="retry_5">5 次</string>
+    <string name="log_terminal_title">实时运行日志 (Terminal)</string>
+    <string name="log_clear">清空终端显示</string>
+    <string name="log_copy">复制诊断日志</string>
+    <string name="log_export">导出并分享 TXT</string>
+
+    <string name="mode_root_normal_title">Root - 普通模式</string>
+    <string name="mode_root_sprint_title">Root - 极速模式</string>
+    <string name="mode_a11y_normal_title">无障碍 - 普通模式</string>
+    <string name="mode_a11y_skz_title">无障碍 - SKZ 模式</string>
+    <string name="mode_root_normal_desc">使用 Root 权限硬件级唤醒与指令解锁，走多重防错和多步校验打卡流程，稳扎稳打。</string>
+    <string name="mode_root_sprint_desc">专为争夺排行榜第 1 名打造！提前 20 秒开屏预热、GPS 保鲜、准点秒开、倒计时毫秒级提交。遇阻自动降级自愈。</string>
+    <string name="mode_a11y_normal_desc">无需 Root 权限，通过 Android 原生辅助服务模拟人工点击和息屏自适应唤醒。适合绝大多数普通用户。</string>
+    <string name="mode_a11y_skz_desc">通过 Shizuku ADB Shell 权限执行辅助打卡，兼顾免 Root 体验与 ADB 级调度稳定性。</string>
+    <string name="mode_tip_prefix">💡 模式说明：%1$s</string>
+    <string name="sprint_time_sub_locked">极速模式根据开始时间提前20秒自动触发 (不可手动修改)</string>
+</resources>
